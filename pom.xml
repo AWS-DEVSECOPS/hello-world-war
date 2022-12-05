@@ -3,12 +3,13 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.efsavage</groupId>
 	<artifactId>hello-world-war</artifactId>
-	<version>1.0.0</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>Hello World Web Application Repository</name>
+	<name>hello-world-war</name>
 	<description>Simplest possible Java Webapp</description>
 
 	<build>
+		<finalName>maven-web-application</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.mortbay.jetty</groupId>
